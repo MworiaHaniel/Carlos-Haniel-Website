@@ -14,6 +14,7 @@
     height: 360px;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 16px;
   }
 </style>
 
@@ -21,10 +22,11 @@
 
 <body>
   {% include 'nav.html'%}
+  
 <div class="container">
 
   <h1 class="text-center mt-2 mb-4">{{person_name}} </h1>
-  <img class = "img-fluid." id = "" src="http://127.0.0.1:5000/static/My%20Image.jpeg"--> 
+  <img class = "img-fluid." id = "" src="http://127.0.0.1:5000/static/Work.jpg"> 
   <h2 class="text-center  mt-2 mb-4"> About me</h2>
   <p class="lead">
     As an electrical engineering major at Western Carolina University, 
@@ -44,9 +46,9 @@
   </div>
 <div class="text-center" >
   <button class="btn btn-primary btn-lg"> View LinkedIn Profile </button>
-  <p class="mt - 4  mb-3 ">Copyright 2024, Carl Njoroge</p>
 </div>
 </div>
+{% include 'footer.html'%}
 
 </body>
 </html> 
