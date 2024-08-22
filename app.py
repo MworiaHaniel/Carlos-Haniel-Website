@@ -4,9 +4,9 @@ app = Flask(__name__)
 PROJECTS = [
    {
    'id' : 1,
-   'title' : 'Kyle and Weber Wind  Design Project',
-   'Project Type': 'Power World Software Design Project',
-   'Description' : 'Power System Design Project',
+   'title' : 'Artificial Intelligence Chatbot Project ',
+   'Project Type': 'JavaScript Coding ',
+   'Description' : 'Machine Learning',
 },
 
 {
